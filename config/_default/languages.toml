@@ -18,7 +18,7 @@
   weight = 20
   [nl.params]
     languageISO = "NL"
-    titleAddition = "Modern documentatie-thema"
+    titleAddition = "AAAAModern documentatie-thema"
     description = "Doks is een Hugo-thema waarmee je moderne documentatie-websites kunt bouwen die veilig, snel en klaar voor SEO zijn — standaard."
     titleHome = "Doks thema"
     footer = "Mogelijk gemaakt door <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, en <a href=\"https://getdoks.org/\">Doks</a>"

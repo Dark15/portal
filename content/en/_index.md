@@ -1,7 +1,8 @@
 ---
-title : "Modern Documentation Theme"
-description: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
-lead: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+title : "软件定义网络解决方案提供商"
+description: ""
+lead: "提供开源的混合云、分支机构互联、远程办公、云专线等解决方案，对于有SLA、安全等需求的用户，有自研的商业化产品可供选择。<br><br>
+定制化需求或技术支持，请与我们联系。"
 date: 2020-10-06T08:47:36+00:00
 lastmod: 2020-10-06T08:47:36+00:00
 draft: false

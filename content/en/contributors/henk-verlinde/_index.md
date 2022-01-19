@@ -9,4 +9,3 @@ images: []
 
 Creator of Hyas.
 
-[@HenkVerlinde](https://twitter.com/henkverlinde)
