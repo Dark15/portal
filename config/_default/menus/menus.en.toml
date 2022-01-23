@@ -1,19 +1,17 @@
-[[product]]
-  name = "product"
-  weight = 100
-  identifier = "产品"
-  url = "/docs/product/"
+[[main]]
+  name = "产品"
+  weight = 10
+  url = "/products/commercial/cloudlink/"
 
-[[solution]]
-  name = "solution"
-  weight = 200
-  identifier = "解决方案"
-  url = "/docs/solution/"
+[[main]]
+  name = "解决方案"
+  weight = 20
+  url = "/solutions/open-source/branch-linking/"
 
 [[main]]
   name = "文档"
-  url = "/docs/product/cloudlink/"
-  weight = 10
+  url = "/docs/deploy/test/"
+  weight = 30
 
 [[main]]
   name = "博客"

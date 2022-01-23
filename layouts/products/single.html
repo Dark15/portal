@@ -2,7 +2,7 @@
 	<div class="row flex-xl-nowrap">
 		<div class="col-lg-5 col-xl-4 docs-sidebar d-none d-lg-block">
 			<nav class="docs-links" aria-label="Main navigation">
-        {{ partial "sidebar/docs-menu.html" (dict "page" . "section" "docs" "menus" .Site.Menus.docs) }}
+				{{ partial "sidebar/docs-menu.html" (dict "page" . "section" "products" "menus" .Site.Menus.products) }}
 			</nav>
 		</div>
 		{{ if ne .Params.toc false -}}
