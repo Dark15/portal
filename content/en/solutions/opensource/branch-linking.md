@@ -1,5 +1,5 @@
 ---
-title: "[开源] ifman"
+title: "分支机构互通"
 description: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
 lead: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
 date: 2020-10-06T08:48:57+00:00
@@ -7,9 +7,9 @@ lastmod: 2020-10-06T08:48:57+00:00
 draft: false
 images: []
 menu:
-  products:
-    parent: "开源项目"
-weight: 200
+  solutions:
+    parent: "开源方案"
+weight: 100
 toc: true
 ---
 
