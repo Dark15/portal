@@ -17,3 +17,4 @@ toc: true
 
 ## 二级标题
 
+{{< qrcode >}}
