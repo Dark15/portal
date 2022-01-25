@@ -54,7 +54,7 @@ lqipWidth = "20x"
 smallLimit = "300"
 
 # 备案信息
-footer = "Copyright (c) 2022 广州市雪云网络科技有限责任公司<br><a href=\"https://beian.miit.gov.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">备案号</a>"
+footer = "Copyright (c) 2022 广州市雪云网络科技有限责任公司<br><a href=\"https://beian.miit.gov.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">粤ICP备2022009793号</a>"
 
 # Feed
 copyRight = "Copyright (c) 2022 广州市雪云网络科技有限责任公司"
