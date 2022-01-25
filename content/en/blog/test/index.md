@@ -8,6 +8,7 @@ draft: false
 weight: 50
 ---
 
+{{< qrcode >}}
 
 # 测试一级标题
 
