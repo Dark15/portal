@@ -5,6 +5,13 @@
   [en.params]
     languageISO = "EN"
 
+[zh]
+  languageName = "中文"
+  contentDir = "content/zh"
+  weight = 5
+  [zh.params]
+    languageISO = "ZH"
+
 [de]
   languageName = "German"
   contentDir = "content/de"
