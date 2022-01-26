@@ -1,19 +1,16 @@
- # Meta Data for SEO
+# Meta Data for SEO
 
 ## Homepage
 title = "雪云网络"
 titleSeparator = "-"
 titleAddition = "软件定义网络解决方案提供商"
-description = ""
-
-## Documentation
-# docsVersion = "0.3"
+description = "提供开源的混合云、分支机构互联、IDC互通、远程办公、云专线等解决方案，自研商业化产品可满足SLA、安全等需求。用最低的成本解决最核心的网络需求。"
 
 ## Open Graph
-images = ["doks.png"]
-ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+ogLocale = "zh_CN"
+# 似乎没有用到
+domainTLD = "xuecloud.co"
+titleHome = "雪云网络"
 
 ## Sitelinks Search Box
 siteLinksSearchBox = false
@@ -36,18 +33,18 @@ footer = "Copyright (c) 2022 广州市雪云网络科技有限责任公司<br><a
 copyRight = "Copyright (c) 2022 广州市雪云网络科技有限责任公司"
 
 # Alert
+# 顶栏消息框开关
 alert = false
 alertDismissable = true
 # alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\" target=\"_blank\" rel=\"noopener\">Check out Doks v0.2</a>"
 alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\">Check out Doks v0.2</a>"
 
 # Edit Page
-# repoHost [Github | Gitea | GitLab] is used for building the edit link based on git hoster
-repoHost = "GitHub"
-#repoHost = "Gitea"
-docsRepo = "https://github.com/xueCloud"
-docsRepoBranch = "master"
+# 编辑页面开关
 editPage = false
+repoHost = "GitHub"
+docsRepo = "https://github.com/xueCloud"
+docsRepoBranch = "main"
 
 [options]
   lazySizes = true
