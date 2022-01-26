@@ -15,10 +15,6 @@ ogLocale = "en_US"
 domainTLD = "doks.netlify.app"
 titleHome = "Doks Theme"
 
-## Twitter Cards
-twitterSite = "@getdoks"
-twitterCreator = "@henkverlinde"
-
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
