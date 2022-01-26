@@ -39,6 +39,11 @@ alertDismissable = true
 # alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\" target=\"_blank\" rel=\"noopener\">Check out Doks v0.2</a>"
 alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\">Check out Doks v0.2</a>"
 
+# 显示Favicon
+# 等商标注册后，替换完资源再打开
+# favicon需要三个文件：favicon.ico、favicon-16x16.png、favicon-32x32.png，均在static目录下
+showFavicon = false
+
 # Edit Page
 # 编辑页面开关
 editPage = false
