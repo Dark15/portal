@@ -6,5 +6,9 @@ lead: "用最低的成本解决最核心的网络需求。<br><br>
 date: 2021-01-25T22:33:36+08:00
 lastmod: 2021-01-25T22:33:36+08:00
 draft: false
+kind: home
 images: []
+sitemap:
+  changefreq: "weekly"
+  priority: 1.0
 ---
