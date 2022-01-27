@@ -7,9 +7,9 @@ draft: false
 images: []
 ---
 
-如有咨询、技术支持、商务合作等需求，可以发送邮件到下方的邮箱，也可以直接添加下方的微信二维码。
+如有商业产品和解决方案咨询、商务合作需求，请发送邮件到下方邮箱。如需技术支持，请使用微信扫描下方二维码，在服务号消息框中点击`交流群`加入群聊。
 
 **邮箱：** [contactus@xuecloud.co](mailto:contactus@xuecloud.co)
 
-**微信：** <img src="wecom_h.png" width="130" height="130">
+**服务号：** <img src="gh.svg" width="130" height="130">
 
