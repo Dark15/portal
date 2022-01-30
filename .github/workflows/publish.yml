@@ -1,0 +1,71 @@
+name: Publish to Tencent COS
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    concurrency:
+      group: 'portal'
+      cancel-in-progress: true
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 1
+
+      - name: Setup nodejs
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Test
+        run: npm test
+
+      - name: Build production website
+        run: npm run build
+
+      # 国内源站COS（上传）
+      - name: Upload to Guangzhou COS with accelerating
+        uses: XUEGAONET/tencent-cos-action@v0.2.0
+        with:
+          args: upload -rsf --delete ./public/ /
+          secret_id: ${{ secrets.TENCENT_CLOUD_SECRET_ID }}
+          secret_key: ${{ secrets.TENCENT_CLOUD_SECRET_KEY }}
+          bucket: ${{ secrets.COS_BUCKET }}
+
+      # 国内源站COS（同步删除）
+      - name: Sync deleting Guangzhou COS
+        uses: zkqiang/tencent-cos-action@v0.1.0
+        with:
+          args: upload -rsf --delete ./public/ /
+          secret_id: ${{ secrets.TENCENT_CLOUD_SECRET_ID }}
+          secret_key: ${{ secrets.TENCENT_CLOUD_SECRET_KEY }}
+          bucket: ${{ secrets.COS_BUCKET }}
+          region: ap-guangzhou
+
+      # 海外源站COS
+      - name: Sync to international COS
+        uses: zkqiang/tencent-cos-action@v0.1.0
+        with:
+          args: upload -rsf --delete ./public/ /
+          secret_id: ${{ secrets.TENCENT_CLOUD_SECRET_ID }}
+          secret_key: ${{ secrets.TENCENT_CLOUD_SECRET_KEY }}
+          bucket: ${{ secrets.COS_BUCKET_G }}
+          region: na-siliconvalley
