@@ -1,17 +1,17 @@
-[[main]]
-  name = "产品"
-  weight = 10
-  url = "/products/commercial/cloudlink/"
-
-[[main]]
-  name = "解决方案"
-  weight = 20
-  url = "/solutions/opensource/branch-linking/"
-
-[[main]]
-  name = "文档"
-  url = "/docs/deploy/test/"
-  weight = 30
+#[[main]]
+#  name = "产品"
+#  weight = 10
+#  url = "/products/commercial/cloudlink/"
+#
+#[[main]]
+#  name = "解决方案"
+#  weight = 20
+#  url = "/solutions/opensource/branch-linking/"
+#
+#[[main]]
+#  name = "文档"
+#  url = "/docs/deploy/test/"
+#  weight = 30
 
 [[main]]
   name = "博客"
