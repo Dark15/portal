@@ -1,4 +1,4 @@
-baseurl = "https://xuecloud.co/"
+baseurl = "https://www.xuecloud.co/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
